@@ -1,0 +1,42 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Nav Section =================================> */
+
+.nav-link {
+  scale: 1.2;
+}
+
+.nav-item:hover,
+nav-link:hover .fab {
+  transform: translateY(-2px);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hero Section =================================> */
+.hero,
+nav,
+.divider {
+  background-color: #1abc9b;
+}
+
+#nameTitle {
+  font-size: 3.2rem;
+  letter-spacing: 0.05rem;
+}
+
+/* Works Section ===============================> */
+.card:hover .card-body {
+  background-color: #1abc9b;
+  opacity: 0.8 !important;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.card-container:hover .card {
+  transform: translateY(-10px);
+  transition: all 0.3s ease-in-out;
+}
